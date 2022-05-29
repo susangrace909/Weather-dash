@@ -1,0 +1,97 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header h1 {
+  color: white;
+  background-color: darkblue;
+  font-style: bold;
+  text-align: center;
+}
+
+.citySearch {
+  flex: 0 0 calc(100% * 2 / 12 - 2%);
+  border-radius: 5px;
+  margin-top: 5px;
+  justify-content: left;
+  border-bottom: 2px;
+  border-color: grey;
+}
+
+.btn {
+  width: 180px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: lightgrey;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
+
+#searchBtn {
+  background-color: darkblue;
+  color: white;
+}
+
+#searchBtn:hover {
+  background-color: lightskyblue;
+}
+
+.cityList {
+  justify-content: left;
+  flex-direction: column;
+}
+
+.citySpecific {
+  border-color: black;
+  border-width: 2px;
+}
+
+.fiveDay {
+}
+
+/*footer*/
+footer {
+  padding: 20px;
+  padding-left: 40px;
+  width: 100vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  display: inline-block;
+}
+
+footer h2 {
+  display: inline-block;
+  font-size: 45px;
+}
+
+footer span {
+  font-size: 25px;
+}
+
+footer p {
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 550px) {
+}
